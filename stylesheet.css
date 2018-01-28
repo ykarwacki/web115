@@ -1,0 +1,87 @@
+body {
+    background: url(images/cloud_form_crop.JPG) no-repeat center center fixed;
+    background-size: cover;
+    margin: -30px;
+    font-family: 'Hind', sans-serif;
+}
+
+header {
+    background: #423267;
+    background-size: 100%;
+    border: 1px solid #fff5e6;
+    position: fixed;
+    top: 20px;
+    left: 5%;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 90%;
+    height: auto;
+    z-index: +5;
+}
+
+main {
+    position: absolute;
+    top: 250px;
+    left: 1%;
+    right: 1%;
+}
+
+.container {
+    width: 88%;
+    height: auto;
+    background: rgba(247, 243, 212, 0.7);
+    border: 1px solid #ffe100;
+    outline: 2px solid #423267;
+    padding: 5px;
+    margin: 15px auto;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: #fff5e6;
+    font-weight: 400;
+    /*background: #003311;*/
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    /*border: 2px solid #f7f1ee;
+	border-radius: 20px;*/
+}
+
+nav a:hover {
+    background: none;
+    color: #fff5e6;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 300%;
+    color: #fff5e6;
+}
+
+h2 {
+    color: #423267;
+    padding-left: 15px;
+}
+
+h3,
+p {
+    padding-left: 30px;
+}
+
+a {
+    color: #0D2100;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #89223C;
+    text-decoration: underline;
+}
