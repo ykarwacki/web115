@@ -1,1 +1,85 @@
+<!-- ! in index.html creates Document head -->
+<!-- Use Ctrl+/ for a comment in the appropriate language-->
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Karwacki - Learning Emmet</title>
+    <!-- "style" plus tab creates style tags   -->
+    <style>
+        .container {
+            /* "bd1" - 1px border */
+            border: 1px solid black;
+            /* "maw:90p" - max-width: 90% */
+            max-width: 90%;
+            margin: 20px;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- div with class ".container" plus tab -->
+    <div class="container">
+        <!-- p[title="Hello World"]   -->
+        <p title="Hello World">Hello World</p>
+        <!-- h1 with 3 sibling lorem paragraphs "h1+p*3>lorem" -->
+        <h1>This Is a Heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quod, natus iusto, harum eum qui magnam facilis quia, laboriosam provident adipisci dolor dolore hic nulla! Perspiciatis ducimus laudantium, nulla accusamus!</p>
+        <p>Consequatur id, praesentium nihil debitis quia fugiat earum pariatur. Accusamus quasi odit aliquid praesentium eos ipsam modi optio quia maxime. Voluptatem corrupti non sit architecto ex incidunt dicta aliquam qui!</p>
+        <p>Quaerat tempore, quae reiciendis quia alias laboriosam quo commodi, tempora maxime provident, error quas molestiae repellendus nisi quis, corrupti ullam at dignissimos voluptate. Deserunt exercitationem nostrum dolorum a ea architecto!</p>
+        <!-- unordered list with ID and numbered text list child elements "ul#gnomeTree>li{Sparkly Gnome Tree $}*11" -->
+        <ul id="gnomeTree">
+            <li>Sparkly Gnome Tree 1</li>
+            <li>Sparkly Gnome Tree 2</li>
+            <li>Sparkly Gnome Tree 3</li>
+            <li>Sparkly Gnome Tree 4</li>
+            <li>Sparkly Gnome Tree 5</li>
+            <li>Sparkly Gnome Tree 6</li>
+            <li>Sparkly Gnome Tree 7</li>
+            <li>Sparkly Gnome Tree 8</li>
+            <li>Sparkly Gnome Tree 9</li>
+            <li>Sparkly Gnome Tree 10</li>
+            <li>Sparkly Gnome Tree 11</li>
+        </ul>
+        <!-- 2 paragraphs of Lorem Ipsum separately grouped from 3 sibling paragraphs each with link child elements "(p*2>Lorem)+(p>a)*3" -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nulla ut dicta doloremque libero quaerat totam quidem illum corporis sint, voluptate vel quas sunt rerum architecto eligendi. Cum culpa, similique!</p>
+        <p>Quos veritatis vitae sunt nesciunt similique perferendis ea ad rerum, quia, harum, voluptates. Non ex cupiditate, itaque, consequuntur veritatis quaerat amet ullam ratione sequi corporis est laborum impedit molestiae porro.</p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <!-- Table with title, 3 rows and 5 columns "h3{Table Title}+table>(.row>.col{column $}*5)*3" -->
+        <h3>Table Title</h3>
+        <table>
+            <tr class="row">
+                <td class="col">column 1</td>
+                <td class="col">column 2</td>
+                <td class="col">column 3</td>
+                <td class="col">column 4</td>
+                <td class="col">column 5</td>
+            </tr>
+            <tr class="row">
+                <td class="col">column 1</td>
+                <td class="col">column 2</td>
+                <td class="col">column 3</td>
+                <td class="col">column 4</td>
+                <td class="col">column 5</td>
+            </tr>
+            <tr class="row">
+                <td class="col">column 1</td>
+                <td class="col">column 2</td>
+                <td class="col">column 3</td>
+                <td class="col">column 4</td>
+                <td class="col">column 5</td>
+            </tr>
+        </table>
+
+
+    </div>
+
+</body>
+
+</html>
