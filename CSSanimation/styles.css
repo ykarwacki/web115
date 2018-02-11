@@ -1,0 +1,178 @@
+/*
+Pallete:
+    Pale Green = #fbf4e9
+    Dark Green = #001a0d
+    Dark Brown = #1f0800
+    Burnt Orange = #823217
+    Lighter Burnt Orange = #c36b55
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Amiko, sans-serif;
+    background-color: #fbf4e9;
+    color: #001a0d;
+}
+
+.cfm:before,
+.cfm:after {
+    content: ' ';
+    display: table;
+}
+
+.cfm:after {
+    clear: both;
+}
+
+header {
+    background: #1f0800;
+    color: #fbf4e9;
+    margin: -1rem -1rem 0 -1rem;
+    padding: 1rem;
+}
+
+.background {
+    background-color: #ebcec6;
+    float: left;
+    margin: .5rem;
+    width: 16.5%;
+}
+
+header img {
+    margin: .2rem 1rem .6rem .2rem;
+    width: 90%;
+}
+
+
+header h2 {
+    padding-bottom: 3rem;
+}
+
+h1,
+h2 {
+    font-family: Fredericka the Great, serif;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1,
+header a {
+    line-height: .6rem;
+    text-decoration: none;
+    color: #fbf4e9;
+}
+
+nav {
+    margin-left: 25%;
+    text-align: center;
+}
+
+nav a {
+    padding: 0rem 1rem;
+    transition: font-size 1s;
+}
+
+nav a:hover {
+    font-size: 1.25em;
+}
+
+nav a:active {
+    font-size: 1.25em;
+    color: #99ff99;
+}
+
+main {
+    max-width: 1060px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+.colleft,
+.colright {
+    min-height: 100px;
+    width: 49%;
+    margin-bottom: 3rem;
+}
+
+.colleft {
+    float: left;
+}
+
+.colright {
+    float: right;
+}
+
+#honey {
+    width: 10%;
+    margin-right: 1.5rem;
+    float: left;
+    box-shadow: .5rem .5rem #823217;
+}
+
+#barman {
+    width: 15%;
+    float: right;
+    margin: 1.5rem;
+    box-shadow: .5rem .5rem #823217;
+}
+
+#sculpture {
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: .5rem .5rem #823217;
+}
+
+li {
+    list-style-type: none;
+}
+
+#hours {
+    width: 30%;
+    padding: .5rem;
+    min-height: 300px;
+    float: left;
+
+}
+
+#location {
+    width: 60%;
+    padding: .5rem;
+    min-height: 300px;
+    float: right;
+}
+
+#hours h2,
+#location h2 {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+#hours p,
+#location p {
+    padding-left: 2rem;
+}
+
+iframe {
+    float: right;
+    width: 50%;
+    margin: .5rem;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #1f0800;
+    text-align: center;
+}
