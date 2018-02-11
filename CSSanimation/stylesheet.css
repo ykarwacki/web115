@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lemonchiffon;
+    font-family: sans-serif;
+    color: saddlebrown;
+}
+
+header {
+    min-height: 75px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: saddlebrown;
+    color: lemonchiffon;
+}
+
+h1 {
+    padding: 20px 0px;
+}
+
+h2 {
+    padding-left: 15px;
+}
+
+.container {
+    max-width: 95%;
+    min-height: 300px;
+    margin: 10px auto;
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+}
+
+#jack {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 75px;
+    -webkit-animation-name: ani-jack;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 6s;
+    /* Chrome, Safari, Opera */
+    animation-name: ani-jack;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ani-jack {
+    0% {
+        left: 75px;
+        top: 0px;
+    }
+    25% {
+        left: 400px;
+        top: 0px;
+    }
+    35% {
+        left: 400px;
+        top: 15px;
+    }
+    45% {
+        left: 400px;
+        top: -5px;
+    }
+    65% {
+        left: 650px;
+        top: 5px;
+    }
+    80% {
+        left: 500;
+        top: 10px;
+    }
+    100% {
+        left: 450px;
+        top: 0px;
+    }
+}
+
+#jack2 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 75px;
+    -webkit-animation-name: ani-jack;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 6s;
+    /* Chrome, Safari, Opera */
+    animation-name: ani-jack;
+    animation-delay: 5s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+#jack3 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 75px;
+    -webkit-animation-name: ani-jack;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 6s;
+    /* Chrome, Safari, Opera */
+    animation-name: ani-jack;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 8s;
+}
