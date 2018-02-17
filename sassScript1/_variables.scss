@@ -1,0 +1,13 @@
+/* Scss Document - Variables*/
+@import url(https://fonts.googleapis.com/css?family=Rye|Zilla+Slab);
+
+$teal: #009688;
+$lightTeal: #b2dfdb;
+$darkTeal: #00796b;
+$lime: #cddc39;
+$body: lighten($lightTeal, 10%);
+$text: darken($darkTeal, 40%);
+$standard-border: 5px double $lime;
+
+$heading: Rye, cursive;
+$pgraph: 'Zilla Slab', serif;

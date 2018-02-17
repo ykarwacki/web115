@@ -1,0 +1,91 @@
+/* Scss Document */
+@import "_variables";
+@import "_normalize";
+@import "_mixins";
+
+header {
+	background-color: $darkTeal;
+	color: $body;
+	border: $standard-border;
+	max-width: 98%;
+	margin: 1rem auto;
+}
+
+h1 {
+	font-family: $heading;
+	text-align: center;
+	padding: 1rem;
+}
+	
+	ul {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		
+		
+		li {
+			padding: .5rem 1rem;
+			text-decoration: none;
+			display: inline-block;
+			
+			a {
+				text-decoration: none;
+				color: $body;
+				&:hover{
+					color: $lime;
+				}
+			}
+		}
+	}
+
+
+body {
+	background-color: $body;
+	font-family: $pgraph;
+	color: $text;
+}
+
+.container{
+	max-width: 1020px;
+	margin: auto;
+	
+	img {
+		max-width: 25%;
+		margin: .5rem;
+		padding: .5em;
+		background-color: $teal;
+		border: $standard-border;
+		float: right;
+		@include clearfix;
+	}
+}
+
+%col{
+	padding: 0 .5rem .5rem 1rem;
+	line-height: 1.5;
+	@include clearfix;
+}
+
+.colleft {
+	@extend %col;
+	max-width: 26%;
+	float: left;
+}
+
+.colright {
+	@extend %col;
+	max-width: 68%;
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	border-top: 2px dotted $teal;
+}
+
+h2,h3,h4,h5,h6 {
+	font-family: $heading;
+	color: $darkTeal;
+	padding: 1rem;
+}
