@@ -1,0 +1,121 @@
+/* Scss Document */
+/* Scss Document variables*/
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Macondo+Swash+Caps");
+/* colors */
+/* fonts */
+/* Scss Document mixins*/
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  background: ligten(#FBCEA7, 20%);
+  color: #592900;
+  font-family: "Crimson Text", serif; }
+  body h3, body p, body a {
+    font-size: 150%; }
+
+header {
+  border: 1.5px solid #003436; }
+
+h1, h2 {
+  font-family: "Macondo Swash Caps", cursive;
+  color: #003436; }
+
+h2 {
+  text-align: center; }
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+  ul li {
+    padding: .5rem 1rem;
+    text-decoration: none;
+    display: inline-block; }
+    ul li a {
+      text-decoration: none;
+      color: #003436; }
+      ul li a:hover {
+        color: #00D57F; }
+
+main {
+  max-width: 95%;
+  line-height: 1.5;
+  margin: 2rem auto; }
+  main:before, main:after {
+    content: '';
+    display: table; }
+  main:after {
+    clear: both; }
+
+.featured:before, .spr:before, .sprlft:before, .sprrt:before, .featured:after, .spr:after, .sprlft:after, .sprrt:after {
+  content: '';
+  display: table; }
+.featured:after, .spr:after, .sprlft:after, .sprrt:after {
+  clear: both; }
+
+.safety {
+  padding: 1rem; }
+  .safety h3 {
+    color: #592900;
+    font-family: "Crimson Text", serif; }
+
+.interest {
+  margin: 0 0 1rem 2rem;
+  float: right;
+  max-width: 35%;
+  padding-left: 2rem;
+  border-left: 1.5px solid #003436;
+  border-bottom: 1.5px solid #003436; }
+
+iframe {
+  display: block;
+  margin: 1.5rem auto; }
+
+.featured {
+  float: left;
+  max-width: 35%; }
+  .featured img {
+    margin: 1.5rem auto;
+    max-width: 90%; }
+  .featured h3 {
+    text-align: center; }
+
+.history {
+  float: right;
+  padding-top: 3rem;
+  max-width: 60%; }
+
+.row:before, .row:after {
+  content: '';
+  display: table; }
+.row:after {
+  clear: both; }
+
+.spr, .sprlft, .sprrt {
+  max-width: 25%;
+  text-align: center;
+  margin: 0 2rem; }
+  .spr img, .sprlft img, .sprrt img {
+    margin: 1rem auto;
+    max-width: 100%; }
+
+.sprlft {
+  float: left; }
+
+.sprrt {
+  float: right; }
+
+footer {
+  text-align: center;
+  border-top: 1.5px solid #003436; }
+  footer:before, footer:after {
+    content: '';
+    display: table; }
+  footer:after {
+    clear: both; }

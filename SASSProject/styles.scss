@@ -1,0 +1,141 @@
+/* Scss Document */
+@import "_variables";
+@import "_mixins";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+	background: $body;
+	color: $darkBrown;
+	font-family: $mainFont;
+	h3, p, a {
+		font-size: 150%;
+	}
+}
+
+header {
+	border: $standardBorder;
+}
+
+h1, h2{
+	font-family: $headingFont;
+	color: $darkGreen;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		
+		
+		li {
+			padding: .5rem 1rem;
+			text-decoration: none;
+			display: inline-block;
+			
+			a {
+				text-decoration: none;
+				color: $darkGreen;
+				&:hover{
+					color: $bright;
+				}
+			}
+		}
+	}
+
+main {	
+	@include clearfix;
+	max-width: 95%;
+	line-height: 1.5;
+margin: 2rem auto;}
+
+%col{
+	@include clearfix;
+}
+
+.safety {
+	padding: 1rem;
+	h3 {
+		color: $darkBrown;
+		font-family: $mainFont;
+	}
+	
+}
+
+.interest {
+	margin: 0 0 1rem 2rem;
+	float: right;
+	max-width: 35%;
+	padding-left: 2rem;
+	border-left: $standardBorder;
+	border-bottom: $standardBorder;
+}
+
+iframe {
+display: block;
+margin: 1.5rem auto;
+//max-width: 95%;
+}
+
+.featured {
+	@extend %col;
+	float: left;
+	max-width: 35%;
+	img {
+		margin: 1.5rem auto;
+		max-width: 90%;
+	}
+	h3 {
+		text-align: center;
+	}
+
+}
+
+.history {
+	float: right;
+	padding-top: 3rem;
+	max-width: 60%;
+}
+
+.row {
+	@include clearfix;
+}
+
+.spr {
+	@extend %col;
+	max-width: 25%;
+	text-align: center;
+	margin: 0 2rem;
+	img {
+		margin: 1rem auto;
+		max-width: 100%;
+	}
+}
+
+.sprlft {
+	@extend .spr;
+	float:left;
+}
+
+.sprrt {
+	@extend .spr;
+	float:right;
+}
+
+footer {
+	@include clearfix;
+	text-align: center;
+	border-top: $standardBorder;
+}

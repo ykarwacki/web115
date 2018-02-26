@@ -1,0 +1,16 @@
+/* Scss Document variables*/
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Macondo+Swash+Caps');
+
+/* colors */
+$tan: #FBCEA7;
+$darkBrown: #592900;
+$darkGreen: #003436;
+$lightGreen: #236467;
+$bright: #00D57F;
+$body: ligten($tan, 20%);
+$standardBorder: 1.5px solid $darkGreen;
+
+/* fonts */
+$headingFont: 'Macondo Swash Caps', cursive;
+$mainFont: 'Crimson Text', serif;
