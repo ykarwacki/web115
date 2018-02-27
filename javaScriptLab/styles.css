@@ -1,0 +1,66 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Macondo+Swash+Caps");
+/* Colors
+
+#d1c4e9 lavender
+#673ab7 purple
+#512da8 dark purple
+#536DFE blue
+##212121 dark
+#757575 medium
+#BDBDBD light*/
+html {
+  box-sizing: border-box; }
+
+*,
+*:after {
+  box-sizing: inherit; }
+
+body{
+	background: #757575;
+	color: #212121;
+	margin: 5px;
+	padding: 5px;
+	font-family: 'Macondo Swash Caps', 'Crimson Tesxt', serif;
+	line-height: 1.5rem;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.container{
+	max-width: 1060px;
+	margin: auto;
+	background-color: #d1c4e9;
+	outline: #536DFE solid 1px;
+	border: 3px solid #512da8;
+	border-radius: 10px;
+	overflow: auto;
+	padding: 2rem;
+}
+
+.left img,
+.right img {
+    margin: 2rem auto;
+}
+
+.right {
+    width: 200px;
+    float: right;
+    min-height: 300px;
+    text-align: center;
+}
+
+.left {
+    width: 700px;
+    text-align: center;
+    min-height: 600px;
+    float: left;
+}
+
+#large {
+    padding-top: 200px;
+    width: 65%;
+    height: auto;
+}
