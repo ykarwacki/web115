@@ -1,0 +1,17 @@
+/* Scss Document */
+/* color variables*/
+.container-fluid {
+  background-color: #ebf6eb;
+  color: #4d2e00;
+  font-size: 125%; }
+
+h1 {
+  text-align: center; }
+
+.yve {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  background-color: #225725;
+  color: #FF9800;
+  border: 3px dotted #FF9800; }
