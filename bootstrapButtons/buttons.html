@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Karwacki - Buttons and Labels</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+	
+<body>	
+	<div class="page-header">
+		<h1>Buttons and Labels</h1>
+	</div>
+<div class="container-fluid">
+	<h2>Button Group and Button Styles</h2>
+	<div class="btn-group">
+		<button class="btn btn-warning">Warning</button>
+	<button class="btn">Button</button>
+	<button class="btn btn-default">Default</button>
+	<button class="btn btn-primary">Primary</button>
+	<button class="btn btn-success">Success</button>
+	<button class="btn btn-info">Info</button>
+	<button class="btn btn-danger">Danger</button>
+	<button class="btn btn-link">Link</button>	
+	</div>
+	
+	<h2>Button Sizes</h2>
+	<button class="btn btn-xs">Small</button>	
+	<button class="btn btn-sm">Small</button>
+		<button class="btn">Medium</button>
+		<button class="btn btn-lg">Large</button>
+	
+	<h2>Block Buttons and Disabled</h2>
+	<button class="btn btn-block btn-danger active">Button 1</button>
+	<button class="btn btn-block btn-danger">Button 2</button>
+	<button class="btn btn-block btn-danger disabled">Button 3</button>
+	
+	<h2>Justified Large Group with Split Dropdown</h2>
+	<div class="btn-group btn-group-lg btn-group-justified">
+		<div class="btn btn-success">Button 1</div>
+		<div class="btn btn-success">Button 2</div>
+		<div class="btn btn-success">Button 3</div>
+		<div class="btn-group btn-group-lg">
+		<div class="btn btn-success">Button 4</div>
+			<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="#">item a</a></li>
+			<li><a href="#">item b</a></li>
+			<li><a href="#">item c</a></li>
+		</ul>
+		</div>
+	</div>
+	
+	<h2>Vertical Button Group with Dropdown</h2>
+	<div class="btn-group btn-group-vertical">
+		<button class="btn btn-info">Button 1</button>
+		<div class="btn-group btn-group">
+		<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Button 2<span class="caret"></span></button>
+		<ul class="dropdown-menu" role="menu">
+      <li><a href="#">Tablet</a></li>
+      <li><a href="#">Smartphone</a></li>
+			</ul></div>
+		<button class="btn btn-info">Button 3</button>
+		<button class="btn btn-info">Button 4</button>
+	</div>
+	<h2>Button with Glyphicon</h2>
+	<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-ok"></span> Complete</button>
+	</div>
+	<h2>Glyphicon, Badge, label</h2>
+	<span class="label label-success">Camping Ahead <span class="badge">7</span> </span> 
+	<span class="glyphicon glyphicon-tent"></span>
+</body>
+</html>
