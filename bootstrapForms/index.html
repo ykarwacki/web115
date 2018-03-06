@@ -1,1 +1,82 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <title>Karwacki - Bootstrap Forms</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/jsh1/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="pageheader">
+        <h1>Bootstrap Forms</h1>
+    </div>
+    <div class="container">
+        <h2>Sign Up for Free</h2>
+        <form action="" class="form-horizontal">
+            <div class="form-group form-group-lg">
+                <label class="control-label col-sm-2" for="user">User ID:</label>
+                <div class="input-group col-sm-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input type="text" class="form-control" id="user" placeholder="Enter User ID"></div>
+            </div>
+            <div class="form-group form-group-lg">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="input-group col-sm-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email"></div>
+            </div>
+            <div class="form-group form-group-lg">
+                <label class="control-label col-sm-2" for="password">Password:</label>
+                <div class="input-group col-sm-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="checkbox col-sm-4"><label><input type="checkbox">Remember Me On This Computer</label></div>
+                <div class="col-sm-4"></div>
+            </div>
+            <br>
+            <h3>Shoe Size</h3>
+            <label class="radio-inline"><input type="radio" name="size">Women's 7</label>
+            <label class="radio-inline"><input type="radio" name="size">Women's 7.5</label>
+            <label class="radio-inline"><input type="radio" name="size">Women's 8</label>
+            <label class="radio-inline"><input type="radio" name="size">Women's 8.5</label>
+            <label class="radio-inline"><input type="radio" name="size">Women's 9</label>
+            <label class="radio-inline"><input type="radio" name="size">Women's 9.5</label>
+            <br>
+            <h3>Select All That Apply</h3>
+            <label for="select">Hold control to select more than one:</label>
+            <select multiple class="form-control" id="select">
+        <option>I wish I were a duck</option>
+        <option>My father smellt of elderberries</option>
+        <option>Carrots are rabbit food</option>
+        <option>Star Wars is better than Lord of the Rings</option>
+        <option>Cats over Dogs</option>
+      </select>
+            <br>
+            <div class="form-group">
+                <label for="instructions">Special Instructions:</label>
+                <textarea class="form-control" rows="7" id="instructions"></textarea>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
