@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Karwacki - Bootstrap Project</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav5">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		<div class="collapse navbar-collapse" id="nav5">
+	<ul class="nav navbar-nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="equipment.html">Equipment</a></li>
+		<li class="active"><a href="setUp.html">Set Up</a></li>
+		<li><a href="mash.html">Mash</a></li>
+		<li><a href="lauter.html">Lauter</a></li>
+		<li><a href="boil.html">Boil</a></li>
+			</ul>
+		 <form class="navbar-form navbar-right" action="/action_page.php">
+  			<div class="input-group">
+    			<input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+				</div>
+  </div>
+			</form> </div>
+		</div>	
+	</nav>
+	<header>
+		<div class="row">
+		<div class="col-sm-1">
+			<img class="img-responsive img-circle hopdraw" src="images/hopVineArt.jpg" alt="hop vine drawing">	
+		</div>
+			<div class="col-sm-10">
+		<h1>The Set Up <small>Preparing ingredients for brew day</small></h1>
+			</div>	
+			<div class="col-sm-1">
+			<img class="img-responsive img-circle hopdraw" src="images/hopVineArt.jpg" alt="hop vine drawing">	
+		</div>	
+		</div>
+		<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<img class="img-responsive" src="images/barleyFieldHeader.jpg" alt="Barley Field">
+		</div>
+		<div class="col-md-4"></div>
+	</div>
+	</header>
+	
+	
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-7">
+	<h3>Before any brewing takes place, ingredients must be carefully selected and prepared. This is typically a multi-day process</h3>
+		<ul class="nav nav-pills">
+			<li class="active"><a class="color" data-toggle="pill" href="#water">Water</a></li>
+  <li><a class="color" data-toggle="pill" href="#grain">Grain</a></li>
+  <li><a class="color" data-toggle="pill" href="#yeast">Yeast</a></li>
+<li><a class="color" data-toggle="pill" href="#hops">Hops</a></li>		
+</ul>
+		
+<div class="tab-content">
+  <div id="water" class="tab-pane fade in active">
+    <h3>Water</h3>
+    <p>Beer is mostly water and water quality has a huge impact on the quality and flavor profile of any beer. Setting aside, testing and treating all of the water you expect to need for the mash, lauter, and brew should not be overlooked. THE most important thing if you are using tap water is to remove the chlorine compounds added by most municipal water treatment. This can be easily accomplished by adding one or two crushed campden tablets to your water supply. This may generate some sulfer fumes that will dissipate by the end of the brew, but some people also let their water sit over night before brewing.</p>
+	<p>The second most important consideration is the mineral content of the water. If your goal is to brew great tasting beer but you're not trying to get results true to a particular style, you can probably not worry about this. If you're goals include brewing something true to a predefined style, such as IPA or Pilsner, then close attention to mineral content is crucial. Differences in water mineral content interact with ingredients and impact flavor profiles in a huge way. Many resources on the natural water sources associated with traditional beer styles are available. One way to approach your water supply is to test for components and make adjustments. Another approach is to start with the necessary amount of filtered or even distilled water and add carefully measured amounts of the right minerals.</p>
+  </div>
+  <div id="grain" class="tab-pane fade">
+    <h3>Grain</h3>
+    <p>In choosing the type of malt you will use for the base malt of the grist (the total mass of crushed grain you use), the two most important categories you will come across are undermodified/fully modified and 2-row/6-row. A detailed investigation of the malting process can be useful and fascinating but for practical purposes fully modified grain will not require a protein rest during the mash because the proteins have been mostly broken down to usable amino acids and poly peptides during malting. This comes at the expense of fermentable sugars still in the malt, so you would need less of an undermodified malt per gallon to achieve the same specific gravity in the wort.</p> 
+	<p>In general, the difference between a 2-row and a 6-row malt is the amount of power their enzymes have to breakdown starches into fermentable sugars, with 6-row having more enzymatic power. If the beer you are making does not contain any unmalted grain adjuncts, such as corn or rice, there is no need to be concerned about this. All varieties have plenty of enzymatic power to convert their own starches. Even 2-row malts can handle the addition of about 10-20% unmalted adjuncts. If the beer you have planned has a grain bill with more starches than this added, you want to pay close attention to enzymatic power and consult distributors specification if they're available.</p>
+	<p>If you're planning for your first all-grain brew, chances are good that you are relying on someone else's recipe to determine the type and amount of ingredients. There are tons of great recipies out there, but a time will come when you want to modify or design a recipe. When you do, the biggest consideration will be choosing a type and amount of base malt that can deliver the desired starting gravity in the desired volume. Choosing specialty grains is actually much simpler and can be done by consulting beer styles and recipies. The table below lists malts that contribute a signifcant amount of fermentable sugar and the extract potential of one pound in one gallon of water</p> 
+	  <div class="container">
+  <h2>Base Malt Yields - 1 Lb/Gal</h2>
+          
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>Malt</th>
+        <th>% Protein</th>
+        <th>Max % Yield</th>
+		<th>Specific Gravity</th>
+		<th>Recommended Max % of Grist</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>American 6-row</td>
+        <td>13%</td>
+        <td>76</td>
+		<td>1.035</td>
+		<td>100%</td>  
+      </tr>
+      <tr>
+        <td>American 2-row</td>
+        <td>12.3%</td>
+        <td>79</td>
+		<td>1.037</td>
+		<td>100</td>  
+      </tr>
+      <tr>
+        <td>American Klages 2-row</td>
+        <td>12%</td>
+        <td>79</td>
+		<td>1.037</td>
+		<td>100</td>  
+      </tr>
+	<tr>
+		<td>English 2-row Pils</td>
+		<td>10%</td>
+		<td>78</td>
+		<td>1.036</td>
+		<td>100</td>
+	</tr>
+	<tr>
+		<td>English 2-row Lager</td>
+		<td>9.7</td>
+		<td>81</td>
+		<td>1.038</td>
+		<td>100</td>
+	</tr>
+	<tr>
+		<td>German 2-row Pils</td>
+		<td>11</td>
+		<td>81</td>
+		<td>1.038</td>
+		<td>100</td>
+	</tr>
+	<tr>
+		<td>Belgian Pale Ale</td>
+		<td>10.5</td>
+		<td>80</td>
+		<td>1.037</td>
+		<td>100</td>
+	</tr>
+	<tr>
+		<td>German Wheat Malt</td>
+		<td>12.5</td>
+		<td>84</td>
+		<td>1.039</td>
+		<td>80</td>
+	</tr>
+	<tr>
+		<td>Midwest Wheat Malt</td>
+		<td>NA</td>
+		<td>79</td>
+		<td>1.037</td>
+		<td>80</td>
+	</tr>
+	<tr>
+		<td>American Munich</td>
+		<td>13</td>
+		<td>77</td>
+		<td>1.034</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>Belgian Munich</td>
+		<td>10.4</td>
+		<td>81</td>
+		<td>1.038</td>
+		<td>80</td>
+	</tr>	
+    </tbody>
+  </table>
+</div>
+	  
+  </div>
+  <div id="yeast" class="tab-pane fade">
+    <h3>Yeast</h3>
+    <p>It is possible to make a great tasting beer using dried brewing yeast. It is even possible, although difficult, to do with wild yeast strains cultivated from the air. If you want a strong, reliable fermentation that results in a beer with predictable and consistent characteristics, use a quality liquid yeast strain compatible with your recipe.</p>
+	<p>Two companies stand out in supplying this need to brewers: Wyeast and White Labs. Each packet of either of these supplies enough active yeast to start fermentation in a 5 gallon batch with an original gravity of 1.060 or less. If you're starting with a higher gravity or brewing a larger batch, you will either need to more than one packet or to make a yeast starter 2-3 days before brew day.</p>  
+  </div>
+  <div id="hops" class="tab-pane fade">
+    <h3>Hops</h3>
+    <p>Truly fresh hops are great if you can get them. Unless it is harvest season whole leaf hops should be packed in sealed mylar bags with argon gas replacing the air. Even if this is the case, whole leaf hops do not necessarily give better results than hop pellets which are much easier to find in a wide variety and considerably cheaper. The compression process in making the pellets even gives some protection from spoilage to the hop oils. Hop pellets are packaged by the ounce, but you'll want to use fractional amounts in many recipes, so you may need an appropriate scale.</p>
+	<p>In general, choose a variety where alpha acids predominate as your boiling hop and one with plenty of aroma generating beta acids for flavor and aroma hops.</p>  
+  </div>
+</div>
+	</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-3">
+			<h3>Subscribe to Our Newsletter</h3>
+			<form action="">
+				<div class="form-group">
+					<label class="control-label" for="email">Email:</label>
+					<div class="input-group">
+						<input type="email" id="email" class="form-control" placeholder="Enter Email">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+					</div>
+					<button type="submit" class="btn btn-lg">Sign Up</button>
+				</div>
+			</form>
+		</div>	
+		
+	</div>	
+		<footer>
+		<ul class="pager pagination">
+			<li class="previous"><a href="equipment.html">Back</a></li>
+			<li><a href="index.html">Home</a></li>
+    		<li><a href="equipment.html">2</a></li>
+    		<li><a class="active" href="setUp.html">3</a></li>
+    		<li><a href="mash.html">4</a></li>
+    		<li><a href="lauter.html">5</a></li>
+    		<li><a href="boil.html">6</a></li>
+			<li class="next"><a href="mash.html">Next</a></li>
+  		</ul>
+		</footer>
+		
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #f2d9dd;
+	color: #29024a;
+	font-size: 200%;
+}
+
+.navbar-default{
+	background-color: #f2d9dd;
+}
+
+ul.navbar-nav>li>a{
+	color: #29024a !important;	
+}
+
+header {
+	background-color: #405100;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+header>.row>.col-md-4>img{
+	margin: auto;
+}
+
+h1,
+h1 small{
+	color: #f2d9dd;
+	padding: 10px 0px;
+}
+
+.row {
+	margin: 20px 0px;
+}
+
+.item,
+.item img{
+    /*width: 90%;
+    height: auto;*/
+    margin: 5px auto;
+}
+
+.item {
+	padding: 10px 0px;
+}
+
+.well-lg,
+.jumbotron{
+	background-color: #29024a;
+	color: #f2d9dd;
+	border-radius: 10px; 
+}
+
+blockquote footer{
+	color: #f2d9dd;
+}
+
+.franklin {
+	
+	padding-top: 30px;
+}
+
+.panel-default>.panel-heading {
+	background-color: #405100;
+	color:  #f2d9dd;
+}
+
+.panel-collapse {
+	background-color: #f2d9dd;
+	color: #29024a;
+}
+
+.panel-body {
+	padding: 10px;
+}
+
+.left{
+	float: left;
+	margin: 10px;
+}
+
+.right {
+	float: right;
+	margin: 10px;
+}
+
+.media-right,
+.media-left {
+	padding: 10px;
+	max-width: 30%;
+	height: auto;
+}
+
+.panel-collapse > .media-right>img {
+	max-width: 30%;
+	height: auto;
+	margin: 5px auto;
+}
+
+footer{
+	padding: 10px 0px;
+	text-align: center;
+}
+
+footer .btn{
+	background-color: #f2d9dd;
+	color: #29024a;
+	border: 2px solid #29024a;
+	border-radius: 10px;
+}
+
+footer .btn:hover {
+	background-color: #29024a;
+	color: #f2d9dd;
+}
+
+.pagination>li>a {
+	background-color: #f2d9dd;
+	color: #29024a;
+}
+
+.pagination>li>a:hover {
+	background-color: #29024a;
+	color: #f2d9dd;
+}
+
+.pagination>li>a.active {
+	background-color: #29024a;
+	color: #f2d9dd
+}
+
+.color {
+	color: #29024a;
+}
+
+.nav-pills>li.active>a {
+	background-color: #405100 !important;
+}
+
+.list-group>a.active {
+	background-color: #405100 !important;
+}
+
+.btn-lg {
+	background-color: #29024a;
+	color: #f2d9dd;
+	margin: 20px 0px;
+}
+
+.btn-lg:hover {
+	background-color: #f2d9dd;
+	color: #29024a;
+}
+
+.hopdraw {
+	max-height: 100px;
+	width: auto;
+}
+
+@media only screen and (max-width: 768px){
+	.hopdraw{
+		display: none;
+	}
+}
