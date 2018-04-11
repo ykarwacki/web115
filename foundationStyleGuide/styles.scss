@@ -1,0 +1,176 @@
+/* Scss Document */
+
+@import "_variables";
+
+.top-bar {
+	padding: 0 5rem;
+	margin-bottom: 2rem;
+}
+
+li{
+	list-style: none;
+}
+
+h1, h2, h3 {
+	font-family: 'Cinzel Decorative', 'cursive';
+}
+
+h4, h5, h6, p {
+	font-family: 'Lato', 'sans-serif';
+}
+
+.swatch {
+	min-height: 10rem;
+	width: 100%;
+	}
+
+.short {
+	min-height: 3rem;
+	width: 100%;
+}
+
+.one {
+		background: $primary1;
+	}
+.two {
+		background: $primary2;
+	}
+.three {
+		background: $primary3;
+	}
+.four {
+		background: $primary4;
+	}
+
+.one-a {
+	background: mix($primary2, $primary1, 65%);
+}
+
+.one-b {
+	background: mix($primary3, $primary1, 65%);
+}
+.one-c {
+	background: mix($primary4, $primary1, 65%);
+}
+
+.two-a {
+	background: mix($primary1, $primary2, 65%);
+}
+
+.two-b {
+	background: mix($primary3, $primary2, 65%);
+}
+
+.two-c {
+	background: mix($primary4, $primary2, 65%);
+}
+
+.three-a {
+	background: mix($primary1, $primary3, 65%);
+}
+
+.three-b {
+	background: mix($primary2, $primary3, 65%);
+}
+
+.three-c {
+	background: mix($primary4, $primary3, 65%);
+}
+
+.four-a {
+	background: mix($primary1, $primary4, 65%);
+}
+
+.four-b {
+	background: mix($primary2, $primary4, 65%);
+}
+
+.four-c {
+	background: mix($primary3, $primary4, 65%);
+}
+
+.primevalue {
+	text-align: right;
+}
+
+.tt {
+	padding: 0rem 2rem;
+}
+ul.medium-block-grid-3>li{
+	margin: 0rem 2rem;
+}
+
+.onelighttquart {
+	background: lighten($primary1, 25%);
+}
+
+.onelighthalf {
+	background: lighten($primary1, 50%);
+}
+
+.twolighthalf {
+	background: lighten($primary2, 50%);
+}
+
+.twodarkhalf {
+	background: darken($primary2, 50%);
+}
+
+.threelightquart {
+	background: lighten($primary3, 25%);	
+}
+.threedarkquart {
+	background: darken($primary3, 25%);
+}
+
+.fourdarkquart {
+	background: darken($primary4, 25%);
+}
+
+.fourdarkhalf {
+	background: darken($primary4, 50%);
+}
+
+.primaryFont {
+	font-family: 'Lato', 'sans-Serif';
+}
+
+.accentFont {
+	font-family: 'Cinzel Decorative', 'cursive';
+}
+
+.color1{
+	color: $primary1;
+}
+
+.color2{
+	color: $primary2;
+}
+
+.color3{
+	color: $primary3;
+}
+
+.color4{
+	color: $primary4;
+}
+
+.color5 {
+	color: mix($primary4, $primary1, 65%);
+}
+
+.fontLabel {
+	color: mix($primary1, $primary4, 65%);
+}
+
+.small-1>h3{
+	font-family: sans-serif;
+}
+
+.right {
+	text-align: right;
+}
+
+#font {
+	font-family: 'sans-serif';
+}

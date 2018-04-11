@@ -1,1 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karwacki - Foundation Stylesheet</title>
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Lato" rel="stylesheet"> 	
+<link rel="stylesheet" href="normalize.css">	
+<link rel="stylesheet" href="foundation.min.css">
+<link rel="stylesheet" href="styles.css">	
+<script src="vendor/modernizr.js"></script>		 	
+</head>
 
+<body>	
+<nav class="top-bar" data-topbar>
+	
+	<ul class="title-area">
+		<li class="name"><a href="#">Style Guide</a></li>	
+		<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+	</ul>
+	<section class="top-bar-section">
+	<ul class="right">
+		<li><a href="#">Home</a></li>
+		<li><a href="#colors">Colors</a></li>
+		<li><a href="#typography">Typography</a></li>
+	</ul>
+		</section>
+		</nav>
+<main class="row">
+  <p>This is a style guide prepared for <strong>Client Name</strong> by <a href="#">Your Name</a>&nbsp;</p>
+  <h1 id="colors">Colors</h1>
+	<hr>
+	<h2>Primary Colors</h2>
+	<div class="row">
+	<div class="small-6 medium-3 columns">
+		<div class="swatch one"></div>
+		<div class="row">
+			<div class="small-6 columns left">
+				<p class="primelabel">Name:</p>
+				<p class="primelabel">HEX#</p>
+				<p class="primelabel">RGB</p>
+			</div>
+			<div class="small-6 columns right">
+				<p class="primevalue">Navy</p>
+				<p class="primevalue">0A1A39</p>
+				<p class="primevalue">10, 26, 57</p>
+			</div>
+		</div>	
+	</div> <!-- end color 1-->
+	<div class="small-6 medium-3 columns">
+		<div class="swatch two"></div>
+		<div class="row">
+			<div class="small-6 columns left">
+				<p class="primelabel">Name:</p>
+				<p class="primelabel">HEX#</p>
+				<p class="primelabel">RGB</p>
+			</div>
+			<div class="small-6 columns right">
+				<p class="primevalue">Purple</p>
+				<p class="primevalue">432F75</p>
+				<p class="primevalue">67, 47, 117</p>
+			</div>
+		</div>	
+	</div> <!-- end color 2 -->
+	<div class="small-6 medium-3 columns">
+		<div class="swatch three"></div>
+		<div class="row">
+			<div class="small-6 columns left">
+				<p class="primelabel">Name:</p>
+				<p class="primelabel">HEX#</p>
+				<p class="primelabel">RGB</p>
+			</div>
+			<div class="small-6 columns right">
+				<p class="primevalue">Sea Green</p>
+				<p class="primevalue">5FA694</p>
+				<p class="primevalue">95, 166, 148</p>
+			</div>
+		</div>	
+	</div><!-- end color three-->
+	<div class="small-6 medium-3 columns">
+		<div class="swatch four"></div>
+		<div class="row">
+			<div class="small-6 columns left">
+				<p class="primelabel">Name:</p>
+				<p class="primelabel">HEX#</p>
+				<p class="primelabel">RGB</p>
+			</div>
+			<div class="small-6 columns right">
+				<p class="primevalue">Pale Gold</p>
+				<p class="primevalue">FFEFCF</p>
+				<p class="primevalue">255, 239, 207</p>
+			</div>
+		</div>	
+	</div><!--end color 4-->
+	
+</div><!--end primary row-->
+<h2>Tints and Tones</h2>
+<p>These colors are lighter and darker variations of our main brand colors. These are especially helpful for hover states, illustrations, and other small variations.</p>
+<ul class="small-block-grid-2 medium-block-grid-4">
+	<li>
+		<div class="tt">
+		<div class="row small-collapse">
+			<div class="small-4 columns">
+				<div class="swatch onelighthalf"></div>
+			</div>
+			<div class="small-4 columns onelighttquart">
+				<div class="swatch oneltquart"></div>
+			</div>
+			<div class="small-4 columns one">
+				<div class="swatch one"></div>
+			</div>
+		</div>
+	</div>
+	</li>
+	<li>
+		<div class="tt">
+		<div class="row small-collapse">
+			<div class="small-4 columns">
+				<div class="swatch twolighthalf"></div>
+			</div>
+			<div class="small-4 columns">
+				<div class="swatch two"></div>
+			</div>
+			<div class="small-4 columns">
+				<div class="swatch twodarkhalf"></div>
+			</div>
+		</div>
+		</div>
+	</li>
+	<li>
+		<div class="tt">
+		<div class="row small-collapse">
+			<div class="small-4 columns">
+				<div class="swatch threelightquart"></div>
+			</div>
+			<div class="small-4 columns three">
+				<div class="swatch three"></div>
+			</div>
+			<div class="small-4 columns">
+				<div class="swatch threedarkquart"></div>
+			</div>
+		</div> 
+	</div>
+	</li>
+	<li>
+		<div class="tt">
+			<div class="row small-collapse">
+			<div class="small-4 columns">
+				<div class="swatch four"></div>
+			</div>
+			<div class="small-4 columns">
+				<div class="swatch fourdarkquart"></div>
+			</div>
+			<div class="small-4 columns">
+				<div class="swatch fourdarkhalf"></div>
+			</div>
+		</div>
+	</div> 	
+	
+	</li>
+</ul><!-- end Tints & Tones -->
+<h2>Generated Colors</h2>
+<p>These colors are derived from combinations with other brand colors. These may be used as accents in illustrations and other design work, though they should not overpower our main brand colors. The official brand colors are displayed first for easy reference.</p>
+
+<ul class="small-block-grid-4">
+	<li>
+		<ul>
+			<li>
+				<h3>Navy</h3>
+			</li>
+			<li>
+				<div class="swatch one"></div>
+			</li>
+			<li>
+				<h4>with 65% navy</h4>
+			</li>
+			<li>
+				<div class="short one"></div>
+			</li>
+			<li>
+				<h4>with 65% purple</h4>
+			</li>
+			<li>
+				<div class="short one-a"></div>
+			</li>
+			<li>
+				<h4>with 65% sea green</h4>
+			</li>
+			<li>
+				<div class="short one-b"></div>
+			</li>
+			<li>
+				<h4>with 65% pale gold</h4>
+			</li>
+			<li>
+				<div class="short one-c"></div>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+			<li>
+				<h3>Purple</h3>
+			</li>
+			<li>
+				<div class="swatch two"></div>
+			</li>
+			<li>
+				<h4>with 65% navy</h4>
+			</li>
+			<li>
+				<div class="short two-a"></div>
+			</li>
+			<li>
+				<h4>with 65% purple</h4>
+			</li>
+			<li>
+				<div class="short two"></div>
+			</li>
+			<li>
+				<h4>with 65% sea green</h4>
+			</li>
+			<li>
+				<div class="short two-b"></div>
+			</li>
+			<li>
+				<h4>with 65% pale gold</h4>
+			</li>
+			<li>
+				<div class="short two-c"></div>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+			<li>
+				<h3>Sea Green</h3>
+			</li>
+			<li>
+				<div class="swatch three"></div>
+			</li>
+			<li>
+				<h4>with 65% navy</h4>
+			</li>
+			<li>
+				<div class="short three-a"></div>
+			</li>
+			<li>
+				<h4>with 65% purple</h4>
+			</li>
+			<li>
+				<div class="short three-b"></div>
+			</li>
+			<li>
+				<h4>with 65% sea green</h4>
+			</li>
+			<li>
+				<div class="short three"></div>
+			</li>
+			<li>
+				<h4>with 65% pale gold</h4>
+			</li>
+			<li>
+				<div class="short three-c"></div>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+			<li>
+				<h3>Pale Gold</h3>
+			</li>
+			<li>
+				<div class="swatch four"></div>
+			</li>
+			<li>
+				<h4>with 65% navy</h4>
+			</li>
+			<li>
+				<div class="short four-a"></div>
+			</li>
+			<li>
+				<h4>with 65% purple</h4>
+			</li>
+			<li>
+				<div class="short four-b"></div>
+			</li>
+			<li>
+				<h4>with 65% sea green</h4>
+			</li>
+			<li>
+				<div class="short four-c"></div>
+			</li>
+			<li>
+				<h4>with 65% pale gold</h4>
+			</li>
+			<li>
+				<div class="short four"></div>
+			</li>
+		</ul>
+	</li>
+</ul>
+	
+<h1 id="typography">Typography</h1>
+<hr>
+<p><strong class="primary-font">Lato</strong> is used as our primary typeface and <strong class="accent-font">Cinzel Decorative Black</strong> is used as an accent for headings and other specia purposes.</p>
+	
+<div>
+	<h2 class="primaryFont">Lato</h2>
+	<h3>
+		<span class="color1 primaryFont">Aa</span>
+		<span class="color2 primaryFont">Bb</span>
+		<span class="color3 primaryFont">Cc</span>
+		<span class="color4 primaryFont">Dd</span>
+		<span class="color5 primaryFont">1234567890</span>
+	</h3>
+</div>
+	
+<div>
+	<h2 class="accentFont">Cinzel Decorative Black</h2>
+	<h3>
+		<span class="color1 accentFont">Aa</span>
+		<span class="color2 accentFont">Bb</span>
+		<span class="color3 accentFont">Cc</span>
+		<span class="color4 accentFont">Dd</span>
+		<span class="color5 accentFont">1234567890</span>
+	</h3>
+</div>
+	
+<h2 class="primaryFont">Heading Samples</h2>
+	<div class="row">
+		<div class="small-1 columns">
+			<h3>H1</h3>
+		</div>
+		<div class="small-11 columns right">
+			<h1>The quick brown fox jumps over a lazy dog</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-1 columns">
+			<h3>H2</h3>
+		</div>
+	<div class="small-11 columns right">
+	<h2>Amazingly few discotheques provide jukeboxes</h2></div>
+	</div>
+	<div class="row">
+		<div class="smal1-1 columns">
+			<h3 id="font">H3</h3>
+		</div>
+		<div class="small-11 columns right">
+			<h3>A wizard’s job is to vex chumps quickly in fog</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-1 columns">
+			<h3>H4</h3>
+		</div>
+	
+	<div class="small-8 columns right">
+		<h4>Bright vixens jump; dozy fowl quack</h4>
+	</div>
+	</div>
+	<div class="row">
+	<div class="small-1 columns">
+		<h3>H5</h3>
+	</div>
+	<div class="small-6 columns right">
+		<h5>Jackdaws love my big sphinx of quartz</h5>
+	</div>
+	</div>
+	<div class="row">
+	<div class="small-1 columns">
+		<h3>H6</h3>
+	</div>
+	<div class="small-5 columns right">	
+		<h6>Pack my box with five dozen liquor jugs</h6>
+	</div>
+	</div>
+	<div class="row">
+		<div class="small-1 columns">
+			<h3>p</h3>
+		</div>
+	<div class="small-11 columns right">
+	<p>By Jove, my quick study of lexicography won a prize! Painful zombies quickly watch a jinxed graveyard. Grumpy wizards make a toxic brew for the jovial queen. A quick movement of the enemy will jeopardize six gunboats. Jackie will budget for the most expensive zoology equipment. Jim quickly realized that the beautiful gowns are expensive, then a cop quizzed Mick Jagger’s ex-wives briefly.</p>
+		</div>
+	</div>
+	
+	
+</main>	<!-- End Large container div -->
+	
+<script src="vendor/jquery.js"></script>
+<script src="foundation.min.js"></script>
+<script>
+
+	$(document).foundation();
+</script>
+</body>
+	
+</html>

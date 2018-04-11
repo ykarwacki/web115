@@ -1,0 +1,138 @@
+/* Scss Document */
+/* Scss Document */
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Lato");
+/*fonts*/
+.top-bar {
+  padding: 0 5rem;
+  margin-bottom: 2rem; }
+
+li {
+  list-style: none; }
+
+h1, h2, h3 {
+  font-family: 'Cinzel Decorative', 'cursive'; }
+
+h4, h5, h6, p {
+  font-family: 'Lato', 'sans-serif'; }
+
+.swatch {
+  min-height: 10rem;
+  width: 100%; }
+
+.short {
+  min-height: 3rem;
+  width: 100%; }
+
+.one {
+  background: #0A1A39; }
+
+.two {
+  background: #432F75; }
+
+.three {
+  background: #5FA694; }
+
+.four {
+  background: #FFEFCF; }
+
+.one-a {
+  background: #2f2860; }
+
+.one-b {
+  background: #417574; }
+
+.one-c {
+  background: #a9a49b; }
+
+.two-a {
+  background: #1e214e; }
+
+.two-b {
+  background: #557c89; }
+
+.two-c {
+  background: #bdacb0; }
+
+.three-a {
+  background: #284b59; }
+
+.three-b {
+  background: #4d5980; }
+
+.three-c {
+  background: #c7d5ba; }
+
+.four-a {
+  background: #60656e; }
+
+.four-b {
+  background: #857295; }
+
+.four-c {
+  background: #97c0a9; }
+
+.primevalue {
+  text-align: right; }
+
+.tt {
+  padding: 0rem 2rem; }
+
+ul.medium-block-grid-3 > li {
+  margin: 0rem 2rem; }
+
+.onelighttquart {
+  background: #1d4ba5; }
+
+.onelighthalf {
+  background: #5f8ce3; }
+
+.twolighthalf {
+  background: #c9bee5; }
+
+.twodarkhalf {
+  background: black; }
+
+.threelightquart {
+  background: #b1d4cb; }
+
+.threedarkquart {
+  background: #30564c; }
+
+.fourdarkquart {
+  background: #ffc550; }
+
+.fourdarkhalf {
+  background: #cf8a00; }
+
+.primaryFont {
+  font-family: 'Lato', 'sans-Serif'; }
+
+.accentFont {
+  font-family: 'Cinzel Decorative', 'cursive'; }
+
+.color1 {
+  color: #0A1A39; }
+
+.color2 {
+  color: #432F75; }
+
+.color3 {
+  color: #5FA694; }
+
+.color4 {
+  color: #FFEFCF; }
+
+.color5 {
+  color: #a9a49b; }
+
+.fontLabel {
+  color: #60656e; }
+
+.small-1 > h3 {
+  font-family: sans-serif; }
+
+.right {
+  text-align: right; }
+
+#font {
+  font-family: 'sans-serif'; }
