@@ -1,0 +1,22 @@
+/* Scss Document */
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Lato');
+
+$navy: #0A1A39;
+$purple: #432F75;
+$seagreen: #5FA694;
+$palegold: #FFEFCF;
+
+$medblue: lighten($navy, 25%);
+$lightblue: lighten($navy, 50%);
+$lightpurple: lighten($purple, 50%);
+$darkpurple: darken($purple, 50%);
+$lightgreen: lighten($seagreen, 50%);
+$darkgreen: darken($seagreen, 50%);
+$darkgold: darken($palegold, 50%);
+$gold: darken($palegold, 25%);
+
+$medgray: mix($palegold, $navy, 65%);
+$darkgray: mix($navy, $palegold, 65%);
+$indigo: mix($navy, $darkpurple, 65%);
+$mediumteal: mix($seagreen, $navy, 65%);

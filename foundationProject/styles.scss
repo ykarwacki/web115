@@ -1,0 +1,86 @@
+/* Scss Document */ 
+
+@import "_variables.scss";
+
+body {
+	background-color: $navy;
+	color: $indigo;
+	font-family: 'Lato', sans-serif;
+}
+
+main {
+	background-color: $palegold;
+	border-radius: 10px;
+	min-height: 5rem;
+}
+
+header {
+	@extend main; 
+	text-align: center;
+	margin: 2rem 0rem;
+}
+
+h1, h2, h3,h4 {
+	font-family: 'Cinzel Decorative', serif;
+	padding: 2rem 0rem;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 120%;
+	h5, h6{
+		font-weight: bold;
+	}
+}
+
+
+
+hr{
+	color: $palegold;
+}
+
+.float-img{
+	max-width: 100%;
+	height: auto;
+	padding: 1rem;
+	margin: 1rem auto .5rem auto;	
+}
+
+figure {
+	background-color: $mediumteal;
+}
+
+figcaption {
+	color: $palegold;
+	text-align: center;
+	padding-bottom: .5rem;
+}
+
+.space-right {
+	margin-right: 3rem;
+}
+
+button, .button {
+	font-size: 125%;
+	font-weight: bolder;
+	background-color: $navy;
+}
+
+footer {
+	background-color: $darkgray;
+	margin-top: 4rem;
+	padding-bottom: 2rem;
+}
+
+.foot-text {
+	font-family: 'Lato', sans-serif;
+	color: $palegold;
+	text-align: left;
+	line-height: .7rem;
+}
+
+.foot-text-head {
+	@extend .foot-text;
+	font-weight: bold;	
+	padding: 1rem 0rem;
+}

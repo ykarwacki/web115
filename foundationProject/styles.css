@@ -1,0 +1,66 @@
+/* Scss Document */
+/* Scss Document */
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Lato");
+body {
+  background-color: #0A1A39;
+  color: #071125;
+  font-family: 'Lato', sans-serif; }
+
+main, header {
+  background-color: #FFEFCF;
+  border-radius: 10px;
+  min-height: 5rem; }
+
+header {
+  text-align: center;
+  margin: 2rem 0rem; }
+
+h1, h2, h3, h4 {
+  font-family: 'Cinzel Decorative', serif;
+  padding: 2rem 0rem; }
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 120%; }
+  p h5, p h6 {
+    font-weight: bold; }
+
+hr {
+  color: #FFEFCF; }
+
+.float-img {
+  max-width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem auto .5rem auto; }
+
+figure {
+  background-color: #417574; }
+
+figcaption {
+  color: #FFEFCF;
+  text-align: center;
+  padding-bottom: .5rem; }
+
+.space-right {
+  margin-right: 3rem; }
+
+button, .button {
+  font-size: 125%;
+  font-weight: bolder;
+  background-color: #0A1A39; }
+
+footer {
+  background-color: #60656e;
+  margin-top: 4rem;
+  padding-bottom: 2rem; }
+
+.foot-text, .foot-text-head {
+  font-family: 'Lato', sans-serif;
+  color: #FFEFCF;
+  text-align: left;
+  line-height: .7rem; }
+
+.foot-text-head {
+  font-weight: bold;
+  padding: 1rem 0rem; }
