@@ -1,0 +1,37 @@
+/* Scss Document */
+@import "_mixins";
+
+.demo-layout-transparent {
+  background: url('leafLettuceCrop.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+	color: white;
+}
+
+.mdl-cell--10-col.mdl-color--white.content {
+	padding: 2rem;
+}
+
+body {
+	font-size: 120%;
+}
+
+.left {
+	float:left;
+	margin: 2rem;
+}
+
+h1{
+	text-align: center;
+}
+
+.demo-card-wide{
+	width: 100%;
+}
+
+.mdl-img-responsive>img {
+	max-width: 100%;
+}
