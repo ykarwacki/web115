@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.demo-layout-transparent {
+  background: url("images/blackGoldWovenBackground.jpg") center/cover; }
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white; }
+
+.mdl-navigation__drawer>nav>a {
+	color: black;
+	font-size: 120%;
+}
+
+.mdl-cell--10-col.mdl-color--white.content {
+  padding: 2rem; }
+
+img {
+	max-width: 100%;
+}
+
+.contleft{
+	width: 20%;
+	margin: 1.5rem;
+	float: left;
+}
+
+.contright {
+	width: 20%;
+	margin: 1.5rem;
+	float: right;
+}
+ 
+footer {
+	padding: 0rem;
+	line-height: .7rem;
+}
+
+footer>h4, footer>p {
+	color: white;
+}
